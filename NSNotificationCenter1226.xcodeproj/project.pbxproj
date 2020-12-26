@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		CEE2CEC8259712A200CAA45D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2CEC7259712A200CAA45D /* AppDelegate.swift */; };
 		CEE2CECA259712A200CAA45D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2CEC9259712A200CAA45D /* SceneDelegate.swift */; };
-		CEE2CECC259712A200CAA45D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2CECB259712A200CAA45D /* ViewController.swift */; };
 		CEE2CECF259712A200CAA45D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE2CECD259712A200CAA45D /* Main.storyboard */; };
 		CEE2CED1259712AC00CAA45D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE2CED0259712AC00CAA45D /* Assets.xcassets */; };
 		CEE2CED4259712AC00CAA45D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE2CED2259712AC00CAA45D /* LaunchScreen.storyboard */; };
+		CEE2CEDF2597135600CAA45D /* LogoDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2CEDE2597135600CAA45D /* LogoDownloader.swift */; };
+		CEE2CEE32597148400CAA45D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2CEE22597148400CAA45D /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CEE2CEC4259712A200CAA45D /* NSNotificationCenter1226.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSNotificationCenter1226.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE2CEC7259712A200CAA45D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEE2CEC9259712A200CAA45D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CEE2CECB259712A200CAA45D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CEE2CECE259712A200CAA45D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEE2CED0259712AC00CAA45D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEE2CED3259712AC00CAA45D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEE2CED5259712AC00CAA45D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE2CEDE2597135600CAA45D /* LogoDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoDownloader.swift; sourceTree = "<group>"; };
+		CEE2CEE22597148400CAA45D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				CEE2CEC7259712A200CAA45D /* AppDelegate.swift */,
 				CEE2CEC9259712A200CAA45D /* SceneDelegate.swift */,
-				CEE2CECB259712A200CAA45D /* ViewController.swift */,
+				CEE2CEE22597148400CAA45D /* ViewController.swift */,
+				CEE2CEDE2597135600CAA45D /* LogoDownloader.swift */,
 				CEE2CECD259712A200CAA45D /* Main.storyboard */,
 				CEE2CED0259712AC00CAA45D /* Assets.xcassets */,
 				CEE2CED2259712AC00CAA45D /* LaunchScreen.storyboard */,
@@ -137,9 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEE2CECC259712A200CAA45D /* ViewController.swift in Sources */,
 				CEE2CEC8259712A200CAA45D /* AppDelegate.swift in Sources */,
 				CEE2CECA259712A200CAA45D /* SceneDelegate.swift in Sources */,
+				CEE2CEE32597148400CAA45D /* ViewController.swift in Sources */,
+				CEE2CEDF2597135600CAA45D /* LogoDownloader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

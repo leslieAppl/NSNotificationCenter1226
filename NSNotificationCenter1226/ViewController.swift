@@ -1,19 +1,33 @@
 //
 //  ViewController.swift
-//  NSNotificationCenter1226
+//  Delegation-In-Swift
 //
-//  Created by leslie on 12/26/20.
+//  Created by Software Testing on 2/8/18.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
+class ViewController: UIViewController
+{
+    
+    @IBOutlet weak var loadingLabel: UILabel!
+    @IBOutlet weak var loginView: UIView!
+    @IBOutlet weak var imageView: UIImageView!
+    
+    @IBOutlet weak var leftSquareView: UIView!
+    @IBOutlet weak var welcomeLabel: UILabel!
+    @IBOutlet weak var rightSquareView: UIView!
+        
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+    } // end func viewDidLoad()
+
+    @IBAction func loginButtonTapped(_ sender: Any)
+    {
+        
     }
-
-
-}
+    
+} // end class ViewController
 
